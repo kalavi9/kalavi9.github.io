@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+header h2, h4, input, a{
+    display: inline-block;
+    margin: 5px;
+}
+.titre h2{
+    font-size: 30px;
+}
+.titre h2 span{
+    color: red;
+    font-size: 40px;
+}
+article{
+    width: 60%;
+    margin: 10px auto 0px auto;
+    background: rgb(219, 219, 219);
+    padding: 2px 20px 10px;
+    justify-content: center;
+}
+a .fa{
+    color: rgb(102, 1, 1);
+}
+footer{
+    background: rgb(7, 7, 10);
+    margin: 0 auto 20px auto;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    padding: 2px 20px 10px;
+    justify-content: center;
+}
+footer h4{
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+}
+body{
+    font-family: sans-serif;
+}
