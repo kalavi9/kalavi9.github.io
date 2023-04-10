@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0 auto 20px auto;
+    width: 50%;
+    background: lavender;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    background-color: lightcyan;
+    box-shadow: 10px 10px 30px lightblue;
+    font-size: 1.5em;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    color: rgb(46, 46, 134);
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+.btn{
+    text-decoration: none;
+    color: rgb(44, 38, 38);
+    font-weight: 700;
+    font-size: 15px;
+}
+.btn:hover{
+    text-decoration: none;
+    color: red;
+}
+article{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+section{
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+    margin: auto 10px auto;
+    background: rgb(203, 206, 206);
+    max-width: 20em;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+section p{
+    display: block;
+    text-align: center;
+}
+h4{
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: rgb(194, 0, 0);
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+h4:hover{
+    color: rgb(8, 32, 8);
+    transition: 0.5s ease-in-out;
+}
+.list section{
+    width: 30vh;
+    margin-top: -20px;
+    display: flex;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    margin: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
