@@ -6,17 +6,18 @@
 }
 body{
     margin: 0 auto 20px auto;
-    width: 50%;
+    width: 70%;
     background: lavender;
 }
 h1{
     cursor: pointer;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: lightcyan;
-    box-shadow: 10px 10px 30px lightblue;
+    box-shadow: 10px 10px 20px rgb(132, 151, 151);
     font-size: 1em;
     padding: 10px;
+    font-weight: 700;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -42,29 +43,6 @@ h1{
     text-decoration: none;
     color: red;
 }
-article{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-section{
-    list-style: none;
-    align-items: center;
-    padding: 20px;
-    margin: auto 10px auto;
-    background: rgb(203, 206, 206);
-    max-width: 20em;
-    margin-top: 40px;
-    position: relative;
-    text-align: center;
-    display: block;
-    border-radius: 50px;
-    box-shadow: 10px 10px 20px lightgray;
-}
-section p{
-    display: block;
-    text-align: center;
-}
 h4{
     margin-bottom: 5px;
     cursor: pointer;
@@ -78,16 +56,14 @@ h4:hover{
     transition: 0.5s ease-in-out;
 }
 .list section{
-    width: 30vh;
-    margin-top: -20px;
-    display: flex;
-    padding: 20px;
+    width: 100%;
+    display: block;
+    padding: 10px;
     display: block;
     justify-content: center;
-    margin: 10px;
 }
 .list{
-    display: flex;
+    margin: 10px auto 20px auto;
+    display: block;
     justify-content: center;
-    margin: 20px;
 }
