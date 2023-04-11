@@ -10,6 +10,7 @@ body{
     background: lavender;
 }
 h1{
+    margin-bottom: 50px;
     cursor: pointer;
     text-align: center;
     background-color: lightcyan;
@@ -24,7 +25,7 @@ h1{
     color: rgb(46, 46, 134);
 }
 section{
-    width: 50%;
+    width: 20%;
     position: relative;
     text-align: center;
     border-radius: 50px;
