@@ -6,13 +6,12 @@
 }
 body{
     margin: 0 auto 20px auto;
-    width: 80%;
+    width: 100%;
     background: lavender;
 }
 h1{
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
     background-color: lightcyan;
     box-shadow: 10px 10px 20px rgb(132, 151, 151);
     font-size: 1em;
@@ -22,7 +21,6 @@ h1{
     align-items: center;
     position: relative;
     display: block;
-    border-radius: 20px;
     color: rgb(46, 46, 134);
 }
 .text{
