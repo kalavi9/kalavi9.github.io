@@ -57,10 +57,7 @@ h4:hover{
 }
 .list section{
     width: 100%;
-    display: block;
     padding: 10px;
-    display: block;
-    justify-content: center;
 }
 .list{
     margin: 10px auto 20px auto;
